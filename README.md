@@ -1,4 +1,4 @@
-# Jogo de Adivinhação Interativo (Versão Profissional)
+# Jogo de Adivinhação Interativo
 
 Este projeto implementa um jogo de adivinhação interativo onde o jogador tenta descobrir um número inteiro secreto, gerado aleatoriamente dentro de um intervalo predefinido (atualmente de 1 a 10). O sistema fornece feedback imediato após cada tentativa, indicando se o número alvo é maior ou menor que o palpite do jogador. O jogo rastreia o número de tentativas incorretas e as exibe ao final da partida.
 
@@ -12,7 +12,7 @@ Este projeto implementa um jogo de adivinhação interativo onde o jogador tenta
 
 ## Arquivos do Projeto
 
-* `adivinhacao.py`: Contém o código fonte principal do jogo.
+* `app.py`: Contém o código fonte principal do jogo.
 * `README.md`: Este arquivo, fornecendo informações sobre o projeto.
 
 ## Pré-requisitos
@@ -25,7 +25,7 @@ Este projeto implementa um jogo de adivinhação interativo onde o jogador tenta
 2.  **Execute o Script:** Execute o jogo utilizando o seguinte comando:
 
     ```bash
-    python adivinhacao.py
+    python app.py
     ```
 
 3.  **Siga as Instruções:** O jogo solicitará que você insira um número. Digite seu palpite e pressione Enter. Siga as dicas fornecidas até acertar o número secreto.
